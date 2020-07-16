@@ -1,6 +1,6 @@
 Package.describe({
   name: 'apollo',
-  version: '3.1.0',
+  version: '4.0.0',
   summary: 'Basic Apollo integration for Meteor apps',
   git: 'https://github.com/apollographql/meteor-integration',
 });
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
 });
 
 Npm.depends({
-  'apollo-link': '1.2.13'
+  '@apollo/client': '3.0.0',
 })
 
 Package.onTest(function(api) {
